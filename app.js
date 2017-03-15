@@ -3,7 +3,7 @@
 // expected arr [1,2,3,4,5,6,7,8];
 function bubbleSort(arr) {
 //   // console.log("am I in function");
-  var arr = [6,5,3,1,8,7,2,4];
+ 
 
 //   // console.log(arr);
   var done = false;
@@ -21,7 +21,7 @@ function bubbleSort(arr) {
   return arr;
 }
 
-bubbleSort();
+bubbleSort([6,5,3,1,8,7,2,4]);
 //   var stop;
 //     for ( var i =0; i < arr.length; i++){
 //       for(var j = 0; stop=arr.length-i; j<stop; j++){
